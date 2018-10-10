@@ -17,3 +17,5 @@ src/.coverage
 *.json
 combinedjsonfiles.txt
 exerciseOverview.txt
+*.pyc
+*images_on_imgur.bin
