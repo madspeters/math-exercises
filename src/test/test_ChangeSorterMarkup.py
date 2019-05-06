@@ -1,6 +1,6 @@
-from ..ChangeSorterMarkup import *
-from ..WidgetRenderer import *
-from nose.tools import assert_equals
+from ..exercise_converter.helper.ChangeSorterMarkup import *
+from ..exercise_converter.helper.WidgetRenderer import *
+from nose.tools import assert_equal
 
 
 def test_render_sorting_widget_1():
@@ -39,7 +39,7 @@ def test_render_sorting_widget_1():
 """
 
     actual_output = render_sorting_widget(input_values)
-    assert_equals(expected_output, actual_output)
+    assert_equal(expected_output, actual_output)
 
 
 def test_render_sorting_widget_2():
@@ -78,7 +78,7 @@ def test_render_sorting_widget_2():
 """
 
     actual_output = render_sorting_widget(input_values)
-    assert_equals(expected_output, actual_output)
+    assert_equal(expected_output, actual_output)
 
 
 def test_render_sorting_widget_3():
@@ -117,7 +117,7 @@ def test_render_sorting_widget_3():
 """
 
     actual_output = render_sorting_widget(input_values)
-    assert_equals(expected_output, actual_output)
+    assert_equal(expected_output, actual_output)
 
 
 def test_render_sorting_widget_4():
@@ -165,4 +165,4 @@ def test_render_sorting_widget_4():
 """
 
     actual_output = render_sorting_widget(input_values)
-    assert_equals(expected_output, actual_output)
+    assert_equal(expected_output, actual_output)
